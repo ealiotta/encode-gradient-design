@@ -1,8 +1,15 @@
 % This fuction generates Eddy Current nulled Convex Optimized Diffusion Encoding 
 % (EN-CODE) waveforms for a user defined b-value subject to gradient hardware 
 % constraints, moment nulling requirements, sequence timing parameters 
-% and eddy current nulling for a user defined decay time constant. Optimization
-% is perforemd using the Chambolle-Pock algorithm: 
+% and eddy current nulling for a user defined decay time constant. 
+%
+% This work is described in: 
+%
+% Eddy Current Nulled Convex Optimized Diffusion Encoding (EN-CODE) for Distortion 
+% Free Diffusion Tensor Imaging with Short Echo Times. Aliotta E, Moulin K, Ennis DB;
+% Magnetic Resonance in Medicine; 2017 (in press)
+%
+% Optimization is perforemd using the Chambolle-Pock algorithm: 
 %
 % A First-Order Primal-Dual Algorithm for Convex Problems with Applications 
 % to Imaging. Chambolle, A and Pock, T; Journal of Mathematical Imaging and 
@@ -28,7 +35,7 @@
 % Department of Radiological Sciences
 % University of California, Los Angeles
 % - Eric Aliotta (EAliotta@mednet.ucla.edu)
-% - Kévin Moulin (KMoulin@mednet.ucla.edu)
+% - KÃ©vin Moulin (KMoulin@mednet.ucla.edu)
 % - Holden Wu (HWu@mednet.ucla.edu)
 % - Daniel Ennis (DEnnis@mednet.ucla.edu)
 % - Dan Nguyen (DanNguyen@mednet.ucla.edu)
